@@ -23,7 +23,7 @@ export class ProductListService {
 	) { }
 
 	public getProductList(): Observable<ProductListReqModel> {
-		const url = 'http://www.mocky.io/v2/5c9105cb330000112b649af8​,';
+		const url = 'https://www.mocky.io/v2/5c9105cb330000112b649af8​,';
 
 		return this.http.get(url)
 			.pipe(
