@@ -24,7 +24,7 @@
 				</div>
 				<div class="col-md-6">
 					<mat-form-field appearance="outline">
-						<mat-select (selectionChange)="filterOnChange($event.value, 'delivery')" [value]="filterDeliveryDays" placeholder="Delivery Time" multiple>
+						<mat-select (selectionChange)="filterOnChange($event.value, 'delivery')" [value]="filterDeliveryTime" placeholder="Delivery Time" multiple>
 							<mat-option *ngFor="let deliver of deliveryDays" [value]="deliver.value">
 								{{ deliver.label }}
 							</mat-option>	
