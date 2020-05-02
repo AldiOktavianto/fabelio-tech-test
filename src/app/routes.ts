@@ -4,7 +4,6 @@ import { ProductListComponent } from './pages/product-list/product-list.componen
 
 const routes: Routes = [{
     path: '',
-    // loadChildren: './pages/product-list/product-list.module#ProductListModule'
     component: ProductListComponent
 }];
 
